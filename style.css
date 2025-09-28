@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'ManropeBold';
+    src: url('fonts/Manrope-Bold.ttf');
+}
+@font-face {
+    font-family: 'ManropeRegular';
+    src: url('fonts/Manrope-Regular.ttf');
+}
+@font-face {
+    font-family: 'ManropeSemiBold';
+    src: url('fonts/Manrope-SemiBold.ttf');
+}
+
+body {
+    background: linear-gradient(to right, #f0f3f5, #e6ebf0 50%);
+    font-family: "ManropeRegular";
+    margin: 0px;
+}
+
+.main_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 130px auto 0px auto;
+}
+.head_text {
+    font-family: "ManropeBold";
+    font-size: 33pt;
+    margin: 0px;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;;
+}
+.main_logo {
+    width: 140px;
+}
+.list_str {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+.text_header {
+    font-family: "ManropeSemiBold";
+    text-transform: uppercase;
+    margin: 10px 10px 10px 0px;
+}
+
+.top_block {
+    margin: 100px auto 130px auto;
+}
+.text_main {
+    font-size: 15pt;
+    margin-top: 70px;
+    width: 45%;
+}
+.top_head_text {
+    font-size: 43pt;
+}
+.but {
+    position: relative;
+    background-color: #3586ff;
+    color: white;
+    border: 1px solid #3586ff;
+    padding: 15px 60px;
+    border-radius: 7px;
+    font-family: "ManropeBold";
+    font-size: 12pt;
+    width: fit-content;
+    margin: 0px;
+}
+.but::after {
+    position: absolute;
+    content: "";
+    border: 1px solid #3586ff;
+    border-radius: 10px;
+    inset: -5px;
+}
+.main_but {
+    margin: 40px 0px 50px 5px;
+}
+.one_img {
+    width: 55%;
+    min-width: 500px;
+}
+
+.choice_block {
+    text-align: center;
+}
+.choice_img {
+    margin: 70px auto;
+    justify-content: space-around;
+}
+.choice_image {
+    background-color: #f1f4f8;
+    border-radius: 7px;
+    width: 25%;
+    padding-top: 15px;
+    min-width: 270px;
+    margin: 10px 5px;
+}
+.choice_img_text {
+    font-family: "ManropeBold";
+    font-size: 15pt;
+}
+
+.free_block {
+    position: relative;
+    width: 70%;
+    margin: 130px auto 0px auto;
+}
+.free_img {
+    border-radius: 25px;
+    width: 100%;
+    min-width: 550px;
+}
+.free_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    top: 20%;;
+    left: 6%;
+    font-size: 14pt;
+    max-width: 60%;
+}
+.text_free {
+    max-width: 600px;
+    margin-top: 40px;
+    min-width: 300px;
+}
+.free_but {
+    padding: 0px 30px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.stretching_block {
+    margin: 220px auto 0px auto;
+    width: 70%;
+}
+.main_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stretching_image {
+    border-radius: 20px;
+    width: 50%;
+    min-width: 550px;
+    margin-top: 10px;
+}
+.stretching_text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+    margin: 10px 0px 0px 10px;
+    font-size: 14pt;
+}
+.stretching_head {
+    text-transform: uppercase;
+    font-family: "ManropeSemiBold";
+    margin: 0px;
+}
+.block_reit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.reit {
+    background-color: #f1f4f8;
+    display: flex;
+    border-radius: 7px;
+    padding: 0px 15px;
+    margin: 10px 0px;
+    align-items: center;
+}
+.reit_text {
+    font-size: 11pt;
+    font-family: "ManropeSemiBold";
+    margin-right: 5px;
+}
+#reit_text1 {
+    margin-left: 40px;
+}
+#reit_text2 {
+    margin-left: 10px;
+}
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.price_text {
+    font-family: "ManropeBold";
+    font-size: 30pt;
+    margin: 0px;
+}
+.price_but {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.category_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 70px;
+}
+.table_category {
+    font-family: "ManropeBold";
+    background-color: #f1f4f8;
+    padding: 12px 0px;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
+    min-width: 150px;
+    margin: 15px 10px 15px 0px;
+}
+#choice_table {
+    background-color: #3586ff;
+    color: #f1f4f8;
+}
+#end_table {
+    margin-right: 0px; 
+}
+
+.coach_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.text_coach {
+    font-size: 12pt;
+    margin: 5px 10px 0px 0px;
+    width: 25%;
+    min-width: 220px;
+}
+.coach_image {
+    text-align: center;
+    background-color: #f1f4f8;
+    margin: 10px 5px;
+    width: 20%;
+    height: 270px;
+    border-radius: 15px;
+    padding: 15px 0px;
+    min-width: 230px;
+}
+.name_coach {
+    font-family: "ManropeBold";
+    margin: 10px 0px 5px 0px;
+}
+.info_coach {
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.info_block {
+    padding: 100px 15% 130px 15%;
+    margin: 130px 0px;
+    background-color: #f1f4f8;
+}
+.info_text {
+    font-size: 14pt;
+    width: 40%;
+    margin-top: 30px;
+}
+.info_image {
+    border-radius: 15px;
+    min-width: 500px;
+    margin-top: 30px;
+}
+.info_but {
+    margin-top: 50px;
+}
+
+.work_block {
+    text-align: center;
+}
+.work_content {
+    margin: 50px auto 0px auto;
+    text-align: left;
+}
+.work_content_block {
+    width: 20%;
+    min-width: 200px;
+}
+.num_work {
+    background-color: #3586ff;
+    font-family: "ManropeSemiBold";
+    color: #f1f4f8;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px 20px;
+}
+.name_work {
+    font-family: "ManropeSemiBold";
+    font-size: 14pt;
+    margin-bottom: 0px;
+}
+.text_work {
+    margin-top: 10px;
+}
+
+.form_block {
+    width: 70%;
+    margin: 130px auto 0px auto;
+    background: linear-gradient(to right, #e6ebf0, #f0f3f5);
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px 0px 150px 0px;
+}
+.form_text {
+    font-size: 14pt;
+    width: 50%;
+    margin: 20px auto;
+}
+.block_form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0px auto;
+}
+.form_pole {
+    text-align: left;
+    width: 45%;
+    margin: 30px 0px;
+    min-width: 190px;
+}
+.form_pole1 {
+    width: 40%;
+    margin: 0px auto;
+    text-align: left;
+}
+.name_pole {
+    font-family: "ManropeSemiBold";
+    font-size: 11pt;
+    margin: 10px 0px;
+}
+.input_text {
+    border: 1px solid #d6d8df;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 12pt;
+    width: 100%;
+    position: relative;
+}
+.name_pole_cel {
+    font-family: "ManropeSemiBold";
+    font-size: 11pt;
+    text-align: left;
+    margin: 30px auto 0px auto;
+    width: 40%;
+}
+.list_cel {
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.el_cel {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 11pt;
+}
+.old_radio {
+    display: none;
+}
+.new_radio {
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3586ff;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+.new_radio::after {
+    content: "";
+    position: absolute;
+    background-color: #e9eef2;
+    bottom: 3px;
+    left: -2px;
+    width: 4px;
+    height: 4px;
+    transform: rotate(75deg);
+}
+.old_radio:checked + .new_radio::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: #3586ff;
+    border-radius: 50%;
+}
+.check_pers_data {
+    margin: 40px auto 60px auto;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 11pt;
+}
+.old_checkbox {
+    display: none;
+}
+.new_checkbox {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3586ff;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+.new_checkbox::after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    right: -3px;
+    width: 4px;
+    height: 5px;
+    background-color: #e9eef2;
+}
+.old_checkbox:checked + .new_checkbox::before{
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 7px;
+    width: 4px;
+    height: 8px;
+    border: solid #3586ff;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 30px auto;
+    font-size: 11pt;
+    align-items: center;
+}
+.footer_image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 12%;
+    justify-content: space-between;
+}
+.icon_img {
+    margin: 5px;
+}
+a {
+    color: black;
+}
+
+
