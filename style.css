@@ -19,7 +19,6 @@ body {
 
 .template-block {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
     margin: 130px auto 0px auto;
@@ -40,7 +39,6 @@ body {
 }
 .header__menu {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     width: 30%;
     justify-content: space-between;
@@ -48,13 +46,13 @@ body {
 .header__menu-item {
     font-family: "ManropeSemiBold";
     text-transform: uppercase;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 0px;
 }
 
 .top-block {
     margin: 100px auto 130px auto;
 }
-.top-block__text {
+.top-block__text-block {
     font-size: 15pt;
     margin-top: 70px;
     width: 45%;
@@ -86,7 +84,6 @@ body {
 }
 .top-block__image {
     width: 55%;
-    min-width: 500px;
 }
 
 .choice-block {
@@ -95,14 +92,13 @@ body {
 .choice-block__list-of-courses {
     margin: 70px auto;
 }
-
 .choice-block__card-course {
     background-color: #f1f4f8;
     border-radius: 7px;
     width: 25%;
+    min-width: 290px;
     padding-top: 15px;
-    min-width: 270px;
-    margin: 10px 5px;
+    margin: 10px 0px;
 }
 .choice-block__title-card {
     font-family: "ManropeBold";
@@ -117,7 +113,6 @@ body {
 .free-block__image {
     border-radius: 25px;
     width: 100%;
-    min-width: 550px;
 }
 .free-block__text-block {
     position: absolute;
@@ -127,12 +122,9 @@ body {
     top: 20%;;
     left: 6%;
     font-size: 14pt;
-    max-width: 60%;
 }
 .free-block__text {
-    max-width: 600px;
     margin-top: 40px;
-    min-width: 300px;
 }
 .free-block__button {
     padding: 0px 30px;
@@ -146,13 +138,11 @@ body {
 }
 .stretching-block__info-block {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .stretching-block__image {
     border-radius: 20px;
     width: 50%;
-    min-width: 550px;
     margin-top: 10px;
 }
 .stretching-block__text-block {
@@ -170,13 +160,13 @@ body {
 }
 .stretching-block__reiting-block {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
 }
 .stretching-block__card-reiting {
     background-color: #f1f4f8;
     display: flex;
+    justify-content: space-between;
     border-radius: 7px;
     padding: 0px 15px;
     margin: 10px 0px;
@@ -190,15 +180,18 @@ body {
 .stretching-block__reiting-image {
     margin-right: 5px;
 }
-.stretching-block__reiting-image_end {
-    margin-left: 10px;
-}
-.stretching-block__reiting-image_star {
+.stretching-block__star-block {
+    display: flex;
     margin-left: 40px;
+}
+.stretching-block__calendar-block {
+    display: flex;
+}
+.stretching-block__calendar-block_start {
+    margin-right: 10px;
 }
 .stretching-block__buy-block {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -226,8 +219,8 @@ body {
     border-radius: 10px;
     width: 28%;
     text-align: center;
-    min-width: 150px;
     margin: 15px 10px 15px 0px;
+    min-width: 170px;
 }
 .stretching-block__category_choice {
     background-color: #3586ff;
@@ -239,25 +232,22 @@ body {
 
 .stretching-block__coach-block {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
 }
 .stretching-block__coach-text {
     font-size: 12pt;
-    margin: 5px 10px 0px 0px;
+    margin-top: 5px;
     width: 25%;
-    min-width: 220px;
 }
 .stretching-block__coach {
     text-align: center;
     background-color: #f1f4f8;
-    margin: 10px 5px;
+    margin: 10px 0px;
     width: 20%;
     height: 270px;
     border-radius: 15px;
     padding: 15px 0px;
-    min-width: 230px;
 }
 .stretching-block__name-coach {
     font-family: "ManropeBold";
@@ -280,7 +270,6 @@ body {
 }
 .info-block__image {
     border-radius: 15px;
-    min-width: 500px;
     margin-top: 30px;
 }
 .info-block__button {
@@ -328,21 +317,22 @@ body {
     width: 50%;
     margin: 20px auto;
 }
-.input-data-block__form-block {
+.input-data-block__main-form {
+    width: 40%;
+    margin: 0px auto;
+}
+.input-data-block__name-and-phone {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 40%;
     margin: 0px auto;
 }
 .input-data-block__form {
     text-align: left;
     width: 45%;
     margin: 30px 0px;
-    min-width: 190px;
 }
 .input-data-block__form_long {
-    width: 40%;
+    width: 100%;
     margin: 0px auto;
     text-align: left;
 }
@@ -365,10 +355,8 @@ body {
     font-size: 11pt;
     text-align: left;
     margin: 30px auto 0px auto;
-    width: 40%;
 }
 .input-data-block__list-of-purposes {
-    width: 40%;
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -414,9 +402,7 @@ body {
 }
 .input-data-block__check-person-data {
     margin: 40px auto 60px auto;
-    width: 40%;
     display: flex;
-    flex-wrap: wrap;
     font-size: 11pt;
 }
 .input-data-block__old-checkbox {
@@ -459,13 +445,9 @@ body {
 }
 .footer__images {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     width: 12%;
     justify-content: space-between;
-}
-.footer__icon {
-    margin: 5px;
 }
 .footer__href {
     color: black;

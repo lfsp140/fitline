@@ -10,7 +10,8 @@
     растяжка, фитнес-тренер, тренировки для похудения">
     <title>Fitline - фитнес платформа онлайн-тренировок</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="style_adaptive.css">
+    <link rel="icon" type="image/png" href="img/icon.ico">
 </head>
 <body>
     <header class="template-block header">
@@ -30,11 +31,11 @@
     </header>
     <main>
         <section class="template-block top-block">
-            <div class="top-block__text">
+            <div class="top-block__text-block">
                 <h1 class="template-head-text top-block__title">
                     Фитнес платформа онлайн-тренировок
                 </h1>
-                <p>
+                <p class="top-block__text">
                     Тренировки разного уровня сложности и для любых целей:
                     восстановление, снижение веса, набор мышечной массы
                     и многое другое. Занимайтесь когда и где вам удобно.
@@ -66,7 +67,7 @@
         <section class="free-block">
             <img src="img/5.jpg" alt="Попробуйте бесплатно" class="free-block__image">
             <div class="free-block__text-block">
-                <h2 class="template-head-text">
+                <h2 class="template-head-text free-block__head-text">
                     Попробуйте бесплатно
                 </h2>
                 <p class="free-block__text">
@@ -93,14 +94,21 @@
                     <div class="stretching-block__reiting-block">
                         <div class="stretching-block__card-reiting">
                             <p class="stretching-block__reiting-text">Высокий рейтинг</p>
-                            <img src="img/star.svg" alt="Звездочка" class="stretching-block__reiting-image stretching-block__reiting-image_star">
-                            <p class="stretching-block__reiting-text">5.0</p>
+                            <div class="stretching-block__star-block">
+                                <img src="img/star.svg" alt="Звездочка" class="stretching-block__reiting-image stretching-block__reiting-image_star">
+                                <p class="stretching-block__reiting-text">5.0</p>
+                            </div>
                         </div>
                         <div class="stretching-block__card-reiting">
-                            <img src="img/time.svg" alt="Часы" class="stretching-block__reiting-image">
-                            <p class="stretching-block__reiting-text">8 недель</p>
-                            <img src="img/calendar.svg" alt="Календарь" class="stretching-block__reiting-image stretching-block__reiting-image_end">
-                            <p class="stretching-block__reiting-text">24 тренировки</p>
+                            <div class="stretching-block__calendar-block stretching-block__calendar-block_start">
+                                <img src="img/time.svg" alt="Часы" class="stretching-block__reiting-image">
+                                <p class="stretching-block__reiting-text">8 недель</p>
+                            </div>
+                            <div class="stretching-block__calendar-block">
+                                <img src="img/calendar.svg" alt="Календарь" class="stretching-block__reiting-image stretching-block__reiting-image_end">
+                                <p class="stretching-block__reiting-text">24 тренировки</p>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="stretching-block__buy-block">
@@ -146,13 +154,13 @@
                 <h2 class="template-head-text">
                     О платформе Fitline
                 </h2>
-                <p>
+                <p class="info-block__text">
                     Fitline - Это платформа онлайн-тренировок от лучших
                     тренеров России. Большой выбор программ и разный
                     уровень сложности в каждой из них позволят вам
                     подобрать ту физическую нагрузку, которая необходима.
                 </p>
-                <p>
+                <p class="info-block__text">
                     На платформе есть тренировки для разных целей:
                     снижение веса, набор мышечной массы, восстановление,
                     развитие гибкости, поддержка общего тонуса организма.
@@ -224,43 +232,45 @@
                 полноценному питанию. Заполните анкету и м пришлем вам план
                 питания на месяц с учетом ваших особенностей и образа жизни.
             </p>
-            <div class="input-data-block__form-block">
-                <div class="input-data-block__form">
-                    <p class="input-data-block__title-form">Имя</p>
+            <form class="input-data-block__main-form">
+                <div class="input-data-block__name-and-phone">
+                    <div class="input-data-block__form">
+                        <p class="input-data-block__title-form">Имя</p>
+                        <input type="text" class="input-data-block__input-form">
+                    </div>
+                    <div class="input-data-block__form">
+                        <p class="input-data-block__title-form">Телефон</p>
+                        <input type="text" class="input-data-block__input-form">
+                    </div>
+                </div>
+                <div class="input-data-block__form input-data-block__form_long">
+                    <p class="input-data-block__title-form">E-mail</p>
                     <input type="text" class="input-data-block__input-form">
                 </div>
-                <div class="input-data-block__form">
-                    <p class="input-data-block__title-form">Телефон</p>
-                    <input type="text" class="input-data-block__input-form">
+                <p class="input-data-block__title-purpose">Ваша цель</p>
+                <div class="input-data-block__list-of-purposes">
+                    <label class="input-data-block__purpose">
+                        <input type="radio" name="purpose" value="weight" class="input-data-block__old-radiobox">
+                        <span class="input-data-block__new-radiobox"></span>
+                        Снижение веса
+                    </label>
+                    <label class="input-data-block__purpose">
+                        <input type="radio" name="purpose" value="massa" class="input-data-block__old-radiobox">
+                        <span class="input-data-block__new-radiobox"></span>
+                        Набор массы
+                    </label>
+                    <label class="input-data-block__purpose">
+                        <input type="radio" name="purpose" value="another" class="input-data-block__old-radiobox">
+                        <span class="input-data-block__new-radiobox"></span>
+                        Другая цель
+                    </label>
                 </div>
-            </div>
-            <div class="input-data-block__form input-data-block__form_long">
-                <p class="input-data-block__title-form">E-mail</p>
-                <input type="text" class="input-data-block__input-form">
-            </div>
-            <p class="input-data-block__title-purpose">Ваша цель</p>
-            <form class="input-data-block__list-of-purposes">
-                <label class="input-data-block__purpose">
-                    <input type="radio" name="cel" value="weight" class="input-data-block__old-radiobox">
-                    <span class="input-data-block__new-radiobox"></span>
-                    Снижение веса
-                </label>
-                <label class="input-data-block__purpose">
-                    <input type="radio" name="cel" value="massa" class="input-data-block__old-radiobox">
-                    <span class="input-data-block__new-radiobox"></span>
-                    Набор массы
-                </label>
-                <label class="input-data-block__purpose">
-                    <input type="radio" name="cel" value="another" class="input-data-block__old-radiobox">
-                    <span class="input-data-block__new-radiobox"></span>
-                    Другая цель
+                <label class="input-data-block__check-person-data">
+                    <input type="checkbox" value="person_data" name="sogl" class="input-data-block__old-checkbox">
+                    <span class="input-data-block__new-checkbox"></span>
+                    Я согласен на обработку моих персональных данных
                 </label>
             </form>
-            <label class="input-data-block__check-person-data">
-                <input type="checkbox" value="pers_data" name="sogl" class="input-data-block__old-checkbox">
-                <span class="input-data-block__new-checkbox"></span>
-                Я согласен на обработку моих персональных данных
-            </label>
             <button class="button">Продолжить</button>
         </section>
     </main>
