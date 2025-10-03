@@ -1,0 +1,219 @@
+@media (max-width: 450px) {
+    .template-block {
+        display: block;
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .template-head-text {
+        font-size: 23pt;
+    }
+
+    .header {
+        width: 90%;
+        margin-top: 0px;
+    }
+    .header__logo {
+        width: 60%;
+        margin-top: 30px;
+    }
+    .header__menu {
+        width: 90%;
+        margin: 20px auto 0px auto;
+    }
+
+    .top-block {
+        margin-top: 0px;
+    }
+    .top-block__title {
+        font-size: 25pt;
+    }
+    .top-block__text-block {
+        width: 100%;
+        font-size: 12pt;
+        text-align: center;
+    }
+    .top-block__text {
+        width: 90%;
+        text-align: justify;
+        margin: 30px auto 10px auto;
+    }
+    .top-block__image {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .button {
+        padding: 10px 30px;
+        font-size: 11pt;
+    }
+    .top-block__button {
+        margin: 20px 0px;
+    }
+
+
+
+    .choice-block__list-of-courses {
+        margin: 30px auto;
+    }
+    .choice-block__card-course {
+        margin: 30px auto;
+        padding-bottom: 20px;
+    }
+    .choice-block__image {
+        height: 200px;
+    }
+    .choice-block__title-card {
+        margin-bottom: 0px;
+    }
+
+    .free-block {
+        width: 85%;
+        margin: 80px auto 0px auto;
+    }
+    .free-block__text-block {
+        display: block;
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .free-block__head-text {
+        font-size: 21pt;
+    }
+    .free-block__text {
+        text-align: justify;
+        font-size: 12pt;
+        margin-top: 10px;
+    }
+    .free-block__button {
+        margin-top: 10px;
+        width: 50%;
+        padding: 0px 30px;
+    }
+
+    .stretching-block {
+        width: 80%;
+        margin: 80px auto 0px auto;
+    }
+    .stretching-block__info-block {
+        display: block;
+    }
+    .stretching-block__image {
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .stretching-block__text-block {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        font-size: 12pt;
+        text-align: justify;
+    }
+    .stretching-block__reiting-block {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .stretching-block__card-reiting {
+        width: 65%;
+        padding: 0px 10px;
+        flex-wrap: wrap;
+    }
+    .stretching-block__reiting-text {
+        font-size: 10pt;
+    }
+    .stretching-block__star-block {
+        display: flex;
+        margin-left: 10px;
+    }
+    .stretching-block__price {
+        font-size: 25pt;
+    }
+
+    .stretching-block__category-block {
+        width: 100%;
+    }
+
+    .stretching-block__coach-block {
+        display: block;
+    }
+    .stretching-block__coach-text {
+        width: 100%;
+        text-align: justify;
+    }
+    .stretching-block__coach {
+        margin: 20px auto;
+        width: 90%;
+        height: 280px;
+    }
+    .stretching-block__coach-image {
+        height: 210px;
+    }
+
+    .info-block {
+        padding: 50px 0px 50px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .info-block__text-block {
+        font-size: 12pt;
+        width: 80%;
+        margin: 0px auto;
+        text-align: justify;
+    }
+    .info-block__image {
+        width: 80%;
+        margin-top: 50px;
+    }
+    .info-block__button {
+        margin-top: 20px;
+    }
+
+    .how-work-block__list-of-cards {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .how-work-block__card {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+
+    .input-data-block {
+        width: 80%;
+        padding: 50px 0px 100px 0px;
+    }
+    .input-data-block__text {
+        width: 70%;
+        text-align: justify;
+        font-size: 12pt;
+    }
+    .input-data-block__main-form {
+        width: 65%;
+    }
+    .input-data-block__name-and-phone {
+        display: block;
+    }
+    .input-data-block__form {
+        width: 100%;
+    }
+    .input-data-block__check-person-data {
+        text-align: left;
+        align-items: center;
+        margin: 30px auto 40px auto;
+    }
+    .input-data-block__new-checkbox {
+        width: 40px;
+    }
+
+
+
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .footer__images {
+        margin: 0px auto 10px auto;
+        width: 50%;
+    }
+    
+}
